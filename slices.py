@@ -1,0 +1,26 @@
+#A list with the invited guests is made
+guests = ['micheal jackson', 'masahiro sakurai', 'stan lee']
+#Prints are used to make an invitation for the guests
+print(f"\tDear {guests[0].title()}, I am inviting you to join me for dinner later today.\nI would love to talk to you about your music and your legacy.\nPlease consider joining me later tonight\n\tMax Zaragoza")
+print(f"\tDear {guests[1].title()}, I am inviting you to join me for dinner later today.\nI want to talk about time working on the Smash Brothers series over dinner.\nPlease consider joining me later tonight\n\tMax Zaragoza")
+print(f"\tDear {guests[2].title()}, I am inviting you to join me for dinner later today.\nIt would be an honor to have and be able to talk about your work in the comic industry.\nPlease consider joining me later tonight\n\tMax Zaragoza")
+print("Hello invited guests, I have great news! I was able to find a bigger dinner table and with that, I am able to invite three more people.")
+#More guests are added to the list and is sorted alphabetically
+guests.insert(0, 'lebron james')
+guests.insert(2, 'tom hanks')
+guests.append('michael j fox')
+guests.sort()
+#New invitations are printed
+print(f"Hello {guests[0].title()}, \n\tI would love to have you come over for dinner later, so we could talk about the legacy you have made in the NBA.")
+print(f"Hello {guests[1].title()}, \n\tit would be amazing to have you come over for dinner tonight. I am interested about your time developing the Smash Brothers series.")
+print(f"Hello {guests[2].title()}, \n\tif you are able to, I wish for you to join me for dinner. I would love to talk about your journey while dealing with Parkinson's disease.")
+print(f"Hello {guests[3].title()}, \n\tI was wondering if you would be able to join me for dinner. It would be an honor to have you over and discuss your sucesss.")
+print(f"Hello {guests[4].title()}, \n\tI would love if you could come over for dinner this evening. it would be amazing to talk about your impact ion the comic book industry")
+print(f"Hello {guests[5].title()}, \n\tI wonder if you would be interested in coming over for dinner. I am would love to talk about all your films, especialy Forrest Gump.")
+#The guest's names are printed out in slices
+print("\nThe first three items on the list are:")
+print(guests[:3])
+print("\nThree items from the middle of the list are:")
+print(guests[2:5])
+print("\nThe last three items on the list are:")
+print(guests[-3:])
